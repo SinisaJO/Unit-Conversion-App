@@ -137,6 +137,10 @@ input {
     font-weight: 800;
     outline: none;
 }
+input::placeholder {
+    color: #fff;
+}
+
 input:focus {
     outline: none;    
 }
