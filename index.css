@@ -150,6 +150,12 @@ input[type="number"] {
           appearance: textfield;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 h1 {
     text-align: center;
     color: #ED4880;
@@ -170,7 +176,7 @@ h3 {
 }
 
 h4 {
-    font-size: .8rem;
+    font-size: 1rem;
     color: #4E4E4E; 
     font-weight: 400;
     padding: .1rem;
