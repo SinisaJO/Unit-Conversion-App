@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="data:;base64,=">
+    </head>
+    <body>
+        <div class="toggle_container">
+            <div id="toggle" class="toggle">
+                <div id="circle" class="circle circle-light"></div>
+            </div>
+        </div>
+        <h1>UNIT CONVERSION APP</h1>
+        <section id="container" class="container">
+            <div id="card" class="card">
+               <div class="card__title">
+                <h2 class="card__title">Metric/Imperial unit conversion</h2>
+                <input autocomplete="off" id="input" type="number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="0"></input> 
+               </div>
+               <div class="card__description">
+                <div>
+                   <h3>
+                       Length (Meter/Feet)
+                   </h3>
+                   <h4 class="value-input-feet"">
+                       0 meters = 0.000 feet | 0 feet = 0.000 meters
+                   </h4>
+                </div>
+                <div>
+                   <h3>
+                       Volume (Liters/Gallons)
+                   </h3>
+                   <h4 class="value-input-gall">
+                       0 liters = 0.000 gallons | 0 gallons = 0.000 liters 
+                   </h4>
+                </div>
+                <div>
+                   <h3>
+                       Mass (Kilograms/Pounds)
+                   </h3>
+                   <h4 class="value-input-pounds">
+                       0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+                   </h4>
+                </div>
+               </div>
+            </div>
+        </section>
+    </body>
+    <script src="script.js">
+    </script>
+    <script src="theme.js">
+    </script>
+</html>
