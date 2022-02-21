@@ -8,7 +8,7 @@ I started this project while going through Scrimba course for javascript develop
 
 <h2>Goal and requirements</h2>
 
-The project should be application for unit conversion. T
+The project should be application for unit conversion. 
 The chalenge was to change values in javascript while changing input value. 
 Also when you change theme, to stay same when page is refreshed(using localStorage).
 
