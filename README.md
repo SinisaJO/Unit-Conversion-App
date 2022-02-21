@@ -1,7 +1,7 @@
 <h1 align="center">Unit Conversion App</h1>
 <p align="center"><strong>Simple unit conversion application with theme switcher.</strong>
 
-<div align="center"><img src="https://i.ibb.co/RvTZw49/unitconversion.png"></img></div>
+<div align="center"><img src="https://i.ibb.co/nj0tBL5/unitconversion.png"></img></div>
 <h2>About</h2>
 I started this project while going through Scrimba course for javascript development.
 </br>
