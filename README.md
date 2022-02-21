@@ -21,4 +21,4 @@ Also when you change the theme, to keep the same state when page is refreshed(us
 
 <h2>Contributing</h2>
 
-- Author: <a href="" target="_blank">Sinisa Jovanovic</a>
+- Author: <a href="https://www.linkedin.com/in/sini%C5%A1a-jovanovi%C4%87-78320121a/" target="_blank">Sinisa Jovanovic</a>
