@@ -14,7 +14,8 @@ const enableDarkMode = () => {
     document.body.style.backgroundColor = "#1C1C1C";
     border.style.borderColor = "#FBF7EE";
     card.style.backgroundColor = "#1F2937";
-    card.style.color = "#FBF7EE"
+    card.style.color = "#FBF7EE";
+    
 
     localStorage.setItem("darkMode", "enabled")
 } 
