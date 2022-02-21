@@ -9,7 +9,7 @@ I started this project while going through Scrimba course for javascript develop
 
 The project should be application for unit conversion. 
 The chalenge was to change values in javascript while changing input value. 
-Also when you change theme, to stay same when page is refreshed(using localStorage).
+Also when you change the theme, to keep the same state when page is refreshed(using localStorage).
 
 <h2>Key learnings</h2>
 
