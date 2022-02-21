@@ -1,4 +1,3 @@
-<div align="center"><img src="app/src/main/res/mipmap-xhdpi/ic_launcher.png"></div>
 <h1 align="center">Unit Conversion App</h1>
 <p align="center"><strong>Simple unit conversion application with theme switcher.</strong>
 
