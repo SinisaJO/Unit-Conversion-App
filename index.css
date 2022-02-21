@@ -31,16 +31,6 @@ html:focus-within {
     scroll-behavior: smooth;
   }
 
-
-.darkmode {
-    --crl-light: #FBF7EE;
-    --clr-dark: #1C1C1C;
-    --clr-primary: #1f2937;
-    --clr-circleLight: pink;
-    --clr-circleDark: #3B69E1;
-    --transform: translateX(100%);
-}
-
 .toggle_container {
     margin: 0;
     padding: 1.5rem;
@@ -67,6 +57,7 @@ html:focus-within {
     height: 20px;
     transition: all .50s ease;
     border:#3B69E1 1px solid;
+    transform:translateY(-4%);
 }
 
 .circle-light {
@@ -75,7 +66,7 @@ html:focus-within {
 
 .circle-dark {
     background: #3B69E1;
-    transform: translateX(100%);
+    transform: translateX(100%) translateY(-4%);
     border:pink 1px solid;
 }
 
